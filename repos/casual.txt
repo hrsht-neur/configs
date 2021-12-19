@@ -1,3 +1,5 @@
 https://github.com/alacritty/alacritty.git
 https://github.com/hrkfdn/ncspot.git
 https://github.com/neovim/neovim
+https://github.com/pystardust/ani-cli.git
+https://github.com/arkenfox/user.js.git
