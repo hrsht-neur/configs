@@ -1,1 +1,1 @@
-#Linux app Configs + useful repositories list
+# Linux app Configs + useful repositories list
