@@ -2,19 +2,16 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-# user made alias
-alias xclipc='xclip -selection c'
-alias uukafka='su -l kafka'
-alias ncspot='/opt/ncspot/ncspot'
-
-# temperory deepstream paths
-alias dstest='cd /opt/nvidia/deepstream/deepstream-6.0/sources/apps/sample_apps/'
 
 # If not running interactively, don't do anything
 case $- in
     *i*) ;;
       *) return;;
 esac
+
+if [ -e $HOME/.bash_aliases ]; then
+    source $HOME/.bash_aliases
+fi
 
 # don't put duplicate lines or lines starting with space in the history.
 # See bash(1) for more options
